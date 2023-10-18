@@ -1,4 +1,46 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
+.Container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:black;
+}
+.calculator{
+  padding: 20px;
+  border-radius: 20px;
+  background-color:black;
+  box-shadow: 0 0 10px orange;
+}
+form input[type="button"]{
+  color: white;
+  border: none;
+  outline: 0;
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  background-color: black;
+  margin: 2px;
+  border-radius: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 5px  white;
+}
+form input[type="button"]:hover{
+  background-color: orange;
+  box-shadow: 0 0 5px blue;
+}
+form .display{
+  display: flex;
+  justify-content: flex-end;
+  margin: 5px 0px 15px 0px;
+
+}
+form .display input{
+  text-align: right;
+  flex: 1;
+  margin-bottom: 10px;
+  height: 10vh;
+  border-radius: 20px;
+  outline: none;
 }
