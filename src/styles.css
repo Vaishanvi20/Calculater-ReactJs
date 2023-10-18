@@ -43,4 +43,8 @@ form .display input{
   height: 10vh;
   border-radius: 20px;
   outline: none;
+  font-size:x-large;
+}
+form input.equal{
+  width: 26vw;
 }
